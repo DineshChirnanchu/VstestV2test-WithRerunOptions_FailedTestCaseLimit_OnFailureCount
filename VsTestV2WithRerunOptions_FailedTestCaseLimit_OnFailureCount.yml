@@ -1,5 +1,4 @@
-# The objective is to perform VSTESTV2 with RerunOptions_FailedTestCaseLimit_WithValue2
-
+# The objective is to perform VSTESTV2 with RerunOptions_FailedTestCaseLimit_OnFailureCount
 jobs:
 - job: RunTest4
   displayName: 'Run Tests'
