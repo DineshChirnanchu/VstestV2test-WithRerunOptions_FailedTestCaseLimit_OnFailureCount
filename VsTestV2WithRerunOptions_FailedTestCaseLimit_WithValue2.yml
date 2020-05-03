@@ -15,9 +15,9 @@ jobs:
       testAssemblyVer2: |
           **\*FlakyTestProject*.dll
           !**\obj\**
-      rerunFailedTests: true
-      rerunType: 'basedOnTestFailureCount'
       searchFolder: '$(System.DefaultWorkingDirectory)\bin\Debug\'
+      rerunFailedTests: true
+      rerunType: 'basedOnTestFailureCount' 
       basedOnTestFailureCount: 2
       rerunMaxAttempts: 3
       vsTestVersion: 'toolsInstaller'
