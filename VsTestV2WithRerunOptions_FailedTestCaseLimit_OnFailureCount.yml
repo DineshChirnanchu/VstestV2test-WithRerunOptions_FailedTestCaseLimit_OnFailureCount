@@ -17,6 +17,6 @@ jobs:
       searchFolder: '$(System.DefaultWorkingDirectory)\bin\Debug\'
       rerunFailedTests: true
       rerunType: 'basedOnTestFailureCount' 
-      basedOnTestFailureCount: 2
+      rerunFailedTestCasesMaxLimit: 2
       rerunMaxAttempts: 3
       vsTestVersion: 'toolsInstaller'
